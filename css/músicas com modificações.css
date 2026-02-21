@@ -1,0 +1,81 @@
+#timidez{
+    position: relative;
+    left: 280px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#timidez>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#timidez-audio{
+    position: relative;
+    bottom: 120px;
+    left: 360px;
+}
+
+#zelda-funk{
+    position: relative;
+    top: 270px;
+    right: 330px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#zelda-funk>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#zelda-funk-audio{
+    position: relative;
+    top: 150px;
+    right: 250px;
+}
+
+#maturidade{
+    position: relative;
+    top: 230px;
+    left: 275px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#maturidade-audio{
+    position: relative;
+    top: 110px;
+    left: 357px;
+}
+
+#tudo-aconteceu{
+    position: relative;
+    top: 500px;
+    right: 330px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#tudo-aconteceu>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+#tudo-aconteceu-audio{
+    position: relative;
+    top: 380px;
+    right: 242px;
+}
+

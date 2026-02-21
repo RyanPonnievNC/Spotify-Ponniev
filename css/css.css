@@ -1,0 +1,42 @@
+bod{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    background-color: #121212;
+    height: 50px;
+    border-radius: 30px;
+}
+
+h3{
+    color: white;
+    background-color: #121212; 
+    height: 35px; border-radius: 30px
+}
+
+a{
+    color: white;
+    text-align: end
+}
+
+p{
+    color: white;
+    border-radius: 50px;
+    background-color: #121212;
+    text-align: left;
+    width: 25%;
+    height: 100px;
+}
+button{
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
+select{
+    color: white;
+    background-color: black;
+    border-radius: 10px;    
+}

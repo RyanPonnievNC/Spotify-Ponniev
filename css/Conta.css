@@ -1,0 +1,83 @@
+body{
+    background-color: gray;
+}
+
+.Inscreva-se{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Entrar{
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+
+
+
+
+
+h1{
+    color: white;
+    background-color: #121212;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: white;
+    background-color: #121212; 
+    height: 35px; border-radius: 10px
+}
+p{
+    color: white;
+    border-radius: 10px;
+    background-color: #121212;
+    text-align: left;
+    width: 25%;
+    height: 115px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+legend{
+    height: 25px; 
+    border-radius: 10px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label{
+    height: 25px; 
+    border-radius: 10px; 
+    background-color: #121212; 
+    color: white;
+}
+input{
+    height: 15px; 
+    border-radius: 10px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+select{
+    height: 25px; 
+    border-radius: 10px; 
+    background-color: #121212; 
+}
+butto{
+    text-align: right;
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
