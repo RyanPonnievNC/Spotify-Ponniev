@@ -12,7 +12,7 @@ body{
 
 #menu{
     position: relative;
-    width: 136.5%;
+    width: 100%;
     background-color: #121212;
     height: 95px;
     border-radius: 10px;
@@ -107,14 +107,20 @@ body{
 #b-le-criar{
     float: right;
     position: relative;
-    top: 20px;
+    top: 21px;
     right: 20px;
-    height: 40px;
+    height: 37.5px;
     width: 80px;
     border-radius: 18px;
-    background-color: #121212;
+    background-color: #494949;
     color: white;
     font-size: 18px;
+    border: none;
+}
+
+#b-le-criar:hover{
+    border: 3px solid black;
+    font-size: 19px;
 }
 
 #sua-biblioteca{
@@ -137,10 +143,6 @@ body{
     top: 4px;
 }
 
-#sua-biblioteca:hover{
-    margin-left: 10px;
-}
-
 #sua-biblioteca>a:hover{
     text-decoration: underline;
 }
@@ -152,7 +154,7 @@ body{
     background-color: red;
     position: relative;
     bottom: 695px;
-    left: 510px;
+    left: 0px;
     border-radius: 15px;
     /*Adiciona uma rolagem na aba*/
     overflow: auto;
@@ -178,4 +180,14 @@ body{
 #menu-central>img{
     position: relative;
     margin: 50px
+}
+
+#controles{
+    float: none;
+    position: relative;
+    top: 12px;
+    width: 1905px;
+    height: 87px;
+    background-color: #494949;
+    border-radius: 15px;
 }

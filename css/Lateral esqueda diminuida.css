@@ -138,3 +138,44 @@ body{
     position: relative;
     margin: 50px
 }
+
+#biblioteca{
+    font-size: 27px;
+    border-radius: 50px;
+    background-color: #494949;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    float: none;
+}
+
+#biblioteca>a{
+    color: white;
+    position: relative;
+    top: 8.5px;
+    left: 14px;
+}
+
+#criar-p{
+    font-size: 27px;
+    border-radius: 50px;
+    background-color: #494949;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    float: none;
+}
+
+#criar-p>form>button{
+    color: white;
+    background-color: #494949;
+    position: relative;
+    top: 10px;
+    left: 11.5px;
+    font-size: 25px;
+    border: none;
+}
