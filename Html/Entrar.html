@@ -8,12 +8,13 @@
 <link rel="stylesheet" href="/CSS/Entrar.css">
 <link rel="stylesheet" href="/css/Geral.css">
 
+<script src="/Js/Entrar.js"></script>
+
 </head>
 <body>
     
 <div id="corpo">
 
-<form action="/Html/Em processo.html">
 <!--
 type: o tipo;
 name: a palavra chave/ o identificador;
@@ -32,18 +33,17 @@ placeholder: o nome que estará dentro do(s) local(is) de texto;
 
     <div id="dados-pessoas"><legend>Dados pessoas:</legend></div>
     
-<div id="email"><label for="email">Email:<br></label></div>
-<input type="email" name="email" placeholder="Digite seu email" id="digite-seu-email">
+<div id="email"><label for="digiteSeuEmail">Email:</label><input type="email" name="email" placeholder="Digite seu email" id="digiteSeuEmail"></div>
+
 <br>
 
-<div id="senha"><label for="senha">Senha:<br></label></div>
-<input type="password" name="senha" placeholder="Digite sua senha" id="digite-sua-senha">
+<div id="senha"><label for="digite-sua-senha">Senha:</label><input type="password" name="senha" placeholder="Digite sua senha" id="digite-sua-senha"></div>
+
 <br>
 
 <div id="logar">
 
-<button name="logar" type="submit">Logar</button>
-</form>
+<button type="submit" onclick="logar()">Logar</button>
 </div>
 
 <!--Sempre ao criar um botão, colocar o "type=submit"-->
