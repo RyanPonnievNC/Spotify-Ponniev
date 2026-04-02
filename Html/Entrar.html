@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar na conta</title>
+
+<link rel="stylesheet" href="/CSS/Entrar.css">
+<link rel="stylesheet" href="/css/Geral.css">
+
+<script src="/Js/Entrar.js"></script>
+
+</head>
+<body>
+    
+<div id="corpo">
+
+<!--
+type: o tipo;
+name: a palavra chave/ o identificador;
+value: é o valor noqual o site vai identificar
+placeholder: o nome que estará dentro do(s) local(is) de texto;
+<label for="...">[...]: transforma tal texto clicável; 
+<selecte>: selecionar uma caixa com opicões
+<options>: as opicões do "<select>"
+-->
+
+     <!--Utilizado para logar em uma conta-->
+
+<div id="entrar-na-conta-do-usuário"><h1>Entrar na conta do usuário</h1></div>
+
+
+
+    <div id="dados-pessoas"><legend>Dados pessoas:</legend></div>
+    
+<div id="email"><label for="digiteSeuEmail">Email:</label><input type="email" name="email" placeholder="Digite seu email" id="digiteSeuEmail"></div>
+
+<br>
+
+<div id="senha"><label for="digite-sua-senha">Senha:</label><input type="password" name="senha" placeholder="Digite sua senha" id="digite-sua-senha"></div>
+
+<br>
+
+<div id="logar">
+
+<button type="submit" onclick="logar()">Logar</button>
+</div>
+
+<!--Sempre ao criar um botão, colocar o "type=submit"-->
+<div id="criar">
+<h3>Você ainda não tem uma conta no nosso site? Crie uma clicando <a href="/Html/Nova conta.html">aqui</a></h3>
+</div>
+<div id="voltando"><h1><a href="/Index.html">Voltar</a></h1></div>
+
+    </div>
+</body>
+</html>

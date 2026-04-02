@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar uma nova conta</title>
+
+<link rel="stylesheet" href="/css/Criar nova conta.css">
+<link rel="stylesheet" href="/css/Geral.css">
+
+<script src="/Js/Nova conta.js"></script>
+
+</head>
+<body>
+    
+<div id="corpo">
+
+     <!--Utilizado para criar uma nova conta-->
+
+<div id="criar-uma-nova-conta"><h1>Criar uma nova conta:</h1></div>
+
+<!--
+type: o tipo;
+name: a palavra chave/ o identificador;
+value: é o valor no qual o site vai identificar
+placeholder: o nome que estará dentro do(s) local(is) de texto;
+<label for="...">[...]: transforma tal texto clicável; 
+<selecte>: selecionar uma caixa com opicões
+<options>: as opicões do "<select>"
+-->
+   
+    <div id="dados-pessoas"><legend>Dados pessoas:</legend></div>
+    
+<div id="nome-apelido"><label for="Nome/Apelido">Nome/Apelido:<br></label><input type="text" name="nome/apelido" placeholder="Digite seu nome/apelido" id="Nome/Apelido"><br></div>
+
+<div id="sobre-nome"><label for="Sobrenome">Sobrenome:<br></label><input type="text" name="sobrenome"    placeholder="Digite seu sobrenome"    id="Sobrenome"><br></div>
+
+<!--
+Foi utilizado "option*61" para criar a linha de código da "Idade"
+-->
+
+<div id="idade"><label for="idadeUsuario"><legend>Idade:</legend></label><input type="text" name="email" placeholder="Digite seu ano de nascimento" id="idadeUsuario"></div><span id="erro">ⓘ Você não tem a idade apropriada para acessar o nosso site</span>
+
+<div id="genero"><legend>Gênero:</legend></div>
+
+<div id="masculino"><input type="radio" name="genero" value="Masculino" id="Masculino"><label for="Masculino">Masculino</label></div>
+
+<div id="feminino"><input type="radio" name="genero" value="Feminino" id="Feminino"><label for="Feminino">Feminino</label></div>
+
+<div id="prefiro-não-dizer"><input type="radio" name="genero" value="Prefiro não dizer" id="Prefiro não dizer"><label for="Prefiro não dizer">Prefiro não dizer</label></div>
+
+    <div id="email"><legend id="Email">Email:</legend></div>
+
+    <div id="gmail"><label for="Gmail">Gmail:</label><input type="text" name="email" placeholder="Digite seu email" id="Gmail"></div>
+
+    <div id="senha"><label for="Senha">Senha:</label><input type="password" name="senha" placeholder="Digite sua senha" id="Senha"></div>
+
+    <div id="confirmar-senha"><label for="confirmar/senha">Confirmar senha:</label><input type="password" name="confirmar-senha" placeholder="Digite sua senha novamente" id="confirmar/senha"></div>
+
+<div id="criar"><button mane="criar" type="submit" onclick="novaConta()">Criar</button></div>
+
+
+
+<!--Sempre ao criar um botão, colocar o "type=submit"-->
+
+
+<div id="voltando"><h1><a href="/Html/Entrar.html">Voltar</a></h1></div>
+
+
+</div>
+</body>
+</html>

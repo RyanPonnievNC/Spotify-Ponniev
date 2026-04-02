@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+}
+
+#corpo{
+    position: relative;
+    top: 50%;
+    left: 23%;
+    border: 3px solid white;
+    padding: 50px;
+    padding-left: 80px;
+    width: 48%;
+
+}
+
+#entrar-na-conta-do-usuário{
+    height: 60px;   
+    width: 610px;
+    background-color: #121212; 
+    color: white;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#entrar-na-conta-do-usuário>h1{
+    position: relative;
+    top: 7px;
+    left: 24.5px; 
+}
+
+#dados-pessoas{
+    height: 35px; 
+    width: 160px;
+    border-radius: 10px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    margin: 10px 10px 5px 10px;
+}
+#dados-pessoas>legend{
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+#email{
+    height: 30px; 
+    width: 80px;
+    border-radius: 15px; 
+    background-color: #121212; 
+    color: white;
+    position: relative;
+    left: 15px;
+    margin-bottom: 1.5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#email>input{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+#senha{
+    height: 30px; 
+    width: 80px;
+    border-radius: 15px; 
+    background-color: #121212; 
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#senha>input{
+    position: relative;
+    top: 11px;
+    right: 10px;
+
+}
+
+#logar>button{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    position: relative;
+    top: 43px;
+    left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+} 
+
+#logar>button:hover{
+    font-size: 24px;
+}
+
+#criar{
+    position: relative;
+    top: 23px;
+    height: 45px;   
+    width: 875px;
+    background-color: #121212; 
+    color: white;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#criar>h3{
+    position: relative;
+    top: 9px;
+    left: 24.5px; 
+}
+
+#criar>h3>a:hover{
+    position: relative;
+    color: rgba(211, 211, 211, 0.808);
+}
+
+#voltando{
+    height: 60px;   
+    width: 160px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: #121212; 
+    color: white;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+#voltando>h1>a{
+    position: relative;
+    top: 7px;
+    left: 12.5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgba(211, 211, 211, 0.808);
+}
+
+input{
+    height: 30px; 
+    width: 300px;
+    border-radius: 20px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input::placeholder{
+    position: relative;
+    left: 8px;
+}

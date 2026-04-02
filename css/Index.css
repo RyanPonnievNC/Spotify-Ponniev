@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Sooth;
+    src: url('/Fonts/Smooth\ Circulars\ Italic.otf');
+    src: url('/Fonts/Smooth\ Circulars.otf');
+}
+
+body{
+    background-color: black;
+    font-family: Smooth, Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    background-color: #121212;
+    height: 95px;
+    border-radius: 10px;
+    bottom: 1px;
+    z-index: 1000;
+}
+
+#logo{
+    width: 90px;
+    float: left;
+}
+
+#v-início{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 30px;
+    background-color: #494949;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+#v-início>a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 12px;
+    bottom: 2px;
+}
+
+#v-início:hover{
+    text-decoration: underline;
+}
+
+#cadastre-se{
+    position: relative;
+    top: 35px;
+    right:50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+#cadastre-se:hover{
+    text-decoration: underline;
+}
+
+#cadastre-se:active{
+    color: rgba(211, 211, 211, 0.808);
+}
+
+#entrar{
+    float: right;
+    position: relative;
+    top: 28px;
+    right: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    font-family: Smooth, Arial, Helvetica, sans-serif;
+}
+
+#entrar:hover{
+    font-size: 25px;
+}
+
+#entrar:active{
+    text-decoration: underline;
+}
+
+#menu-lateral-esquerda{
+    float: left;
+    width: 395px;
+    height: 700px;
+    background-color: #121212;
+    position: relative;
+    top: 5px;
+    border-radius: 15px;
+    /*Adiciona uma rolagem na aba*/
+    overflow: auto;
+    color: white;
+
+}
+
+#b-le-criar{
+    float: right;
+    position: relative;
+    top: 21px;
+    right: 20px;
+    height: 37.5px;
+    width: 80px;
+    border-radius: 18px;
+    background-color: #494949;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+#b-le-criar:hover{
+    border: 3px solid black;
+    font-size: 19px;
+}
+
+#sua-biblioteca{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    height: 35px;
+    width: 160px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #494949;
+}
+
+#sua-biblioteca>a{
+    text-decoration: none;
+    color: white;    
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+
+#sua-biblioteca>a:hover{
+    text-decoration: underline;
+}
+
+#menu-lateral-direita{
+    float: right;
+    width: 480px;
+    height: 700px;
+    background-color: red;
+    position: relative;
+    bottom: 695px;
+    left: 0px;
+    border-radius: 15px;
+    /*Adiciona uma rolagem na aba*/
+    overflow: auto;
+    color: white;
+
+}
+
+#menu-central{
+    float: none;
+    width: 1000px;
+    height: 700px;
+    background-color: darkblue;
+    position: relative;
+    top: 4px;
+    left: 15px;
+    border-radius: 15px;
+    /*Adiciona uma rolagem na aba*/
+    overflow: auto;
+    color: white;
+
+}
+
+#menu-central>img{
+    position: relative;
+    margin: 50px
+}
+
+#controles{
+    float: none;
+    position: relative;
+    top: 12px;
+    width: 1905px;
+    height: 87px;
+    background-color: #494949;
+    border-radius: 15px;
+}

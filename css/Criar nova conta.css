@@ -1,0 +1,392 @@
+body{
+    background-color: black;
+    padding: 25px;
+    width: 50%;
+}
+
+#corpo{
+    position: relative;
+    top: 50%;
+    left: 42%;
+    border: 3px solid white;
+    padding: 50px;
+    padding-left: 80px;
+    width: 1000px;
+}
+
+#criar-uma-nova-conta{
+    height: 50px;   
+    width: 50%;
+    background-color: #121212; 
+    color: white;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#criar-uma-nova-conta>h1{
+    position: relative;
+    left: 20px;
+}
+
+
+#dados-pessoas{
+    height: 35px; 
+    width: 160px;
+    border-radius: 10px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    margin: 10px 10px 5px 10px;   
+}
+
+#dados-pessoas>legend{
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+#nome-apelido{
+    height: 35px; 
+    width: 170px;
+    border-radius: 20px; 
+    background-color: #121212; 
+    color: white;
+    position: relative;
+    left: 20px;
+    margin: 10px 5px 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nome-apelido>label{
+    position: relative;
+    top: 5.5px;
+    left: 15px;
+}
+
+#nome-apelido>input{
+    margin: 20px;
+    position: relative;
+    left: -30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+
+#sobre-nome{
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    top: 55px;
+    left: 10px;
+}
+
+#sobre-nome>label{
+    position: relative;
+    top: 5.5px;
+    left: 30px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: #121212;
+    color: white;
+    padding: 8px 15px;
+}
+
+#sobre-nome>input{
+    position: relative;
+    top: 0.3px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+    margin: 20px;
+}
+
+#idade{
+    position: relative;
+    bottom: 159px;
+    height: 40px; 
+    width: 80px;
+    border-radius: 20px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#idade>label>legend{
+    position: relative;
+    top: 9px;
+    left: 9px;
+}
+
+#idadeUsuario{
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+
+#erro{
+    color: red;
+    display: none;
+    font-size: 15px;
+    position: relative;
+    bottom: 187px;
+    left: 310px;
+}
+
+select{
+    padding: 2px 5px; 
+    position: relative;
+    bottom: 180px;
+    left: 95px;
+    border-radius: 5px;
+}
+
+
+
+#genero{
+    height: 40px; 
+    width: 90px;
+    position: relative;
+    bottom: 150px;
+    border-radius: 20px; 
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#genero>legend{
+    position: relative;
+    top: 9px;
+    left: 7px;
+}
+
+#masculino{
+    height: 30px;
+    width: 130px;
+    position: relative;
+    bottom: 183px;
+    left: 110px;
+    border-radius: 15px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#masculino>label{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#masculino>input{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#feminino{
+    height: 30px;
+    width: 130px;
+    position: relative;
+    bottom: 212.4px;
+    left: 260px;
+    border-radius: 15px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#feminino>label{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#feminino>input{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#prefiro-não-dizer{
+    height: 30px;
+    width: 190px;
+    position: relative;
+    bottom: 242px;
+    left: 410px;
+    border-radius: 15px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#prefiro-não-dizer>label{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#prefiro-não-dizer>input{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#email{
+    height: 35px; 
+    width: 80px;
+    border-radius: 20px; 
+    position: relative;
+    top: -230px;
+    left: 30px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#email>legend{
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+#gmail{
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+
+#gmail>label{
+    padding: 8px 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: -225px;
+    right: 65px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#gmail>input{
+    position: relative;
+    top: -180px;
+    left: -175px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+
+#senha{
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+
+#senha>label{
+    padding: 8px 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: -225px;
+    right: 65px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#senha>input{
+    position: relative;
+    top: -180px;
+    left: -175px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+
+#confirmar-senha{
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+
+#confirmar-senha>label{
+    padding: 8px 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: -225px;
+    right: -25px;
+    background-color: #121212; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#confirmar-senha>input{
+    position: relative;
+    top: -180px;
+    left: -175px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+
+
+#criar{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+#criar>button{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#criar>button:hover{
+    font-size: 24px;
+}
+
+#voltando{
+    height: 60px;   
+    width: 160px;
+    position: relative;
+    bottom: 20px;
+    background-color: #121212; 
+    color: white;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+#voltando>h1>a{
+    position: relative;
+    top: 7.5px;
+    left: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+#voltando>h1>a:hover{
+    text-decoration: underline;
+    color: rgba(211, 211, 211, 0.808);
+}
+
+input::placeholder{
+    position: relative;
+    left: 8px;
+}
