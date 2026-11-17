@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar na conta</title>
+  <link rel="icon" href="../img/icone.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body class="pagina-form">
+  <form class="cartao" id="form-login" novalidate>
+    <h1>Entrar na conta</h1>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+    <p class="erro" id="erro" role="alert" hidden></p>
+
+    <button type="submit" class="btn-branco">Entrar</button>
+
+    <p class="aviso">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+    <a href="../index.html" class="voltar">Voltar</a>
+  </form>
+</body>
+</html>

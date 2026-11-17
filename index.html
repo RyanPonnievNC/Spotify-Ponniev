@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="icon" href="img/icone.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="app">
+  <header class="menu">
+    <a href="index.html"><img src="img/logo.webp" alt="Spotify" class="logo"></a>
+    <a href="index.html" class="btn-redondo" title="Início">&#x2302;</a>
+    <nav class="menu-direita">
+      <a href="html/cadastro.html" class="link">Cadastre-se</a>
+      <a href="html/entrar.html" class="btn-branco">Entrar</a>
+    </nav>
+  </header>
+
+  <aside class="lateral" id="lateral">
+    <button type="button" class="btn-cinza" id="btn-biblioteca" title="Sua biblioteca">
+      &#9776;<span class="rotulo">&nbsp;Sua biblioteca</span>
+    </button>
+    <a href="html/em-processo.html" class="btn-cinza" title="Criar">+<span class="rotulo">&nbsp;Criar</span></a>
+  </aside>
+
+  <main class="central">
+    <section class="musicas">
+      <article class="musica">
+        <img src="img/timidez.avif" alt="Capa de Timidez">
+        <audio src="audio/timidez.mp3" controls></audio>
+      </article>
+      <article class="musica">
+        <img src="img/zelda-funk.png" alt="Capa de Zelda Funk">
+        <audio src="audio/zelda-funk.mp3" controls></audio>
+      </article>
+      <article class="musica">
+        <img src="img/maturidade.png" alt="Capa de Maturidade">
+        <audio src="audio/maturidade.mp3" controls></audio>
+      </article>
+      <article class="musica">
+        <img src="img/tudo-aconteceu.png" alt="Capa de Tudo Aconteceu">
+        <audio src="audio/tudo-aconteceu.mp3" controls></audio>
+      </article>
+    </section>
+  </main>
+
+  <aside class="direita">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia culpa quisquam eveniet provident facilis aut, aliquid voluptatibus iste rerum recusandae.</p>
+  </aside>
+
+  <footer class="controles"></footer>
+</body>
+</html>

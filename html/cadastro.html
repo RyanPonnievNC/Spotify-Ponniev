@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar uma nova conta</title>
+  <link rel="icon" href="../img/icone.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body class="pagina-form">
+  <form class="cartao" id="form-cadastro" novalidate>
+    <h1>Criar uma nova conta</h1>
+
+    <label for="nome">Nome/Apelido</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome/apelido" required>
+
+    <label for="sobrenome">Sobrenome</label>
+    <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+
+    <label for="ano">Ano de nascimento</label>
+    <input type="number" id="ano" name="ano" placeholder="Ex.: 2000" min="1900" required>
+
+    <fieldset>
+      <legend>Gênero</legend>
+      <label><input type="radio" name="genero" value="Masculino"> Masculino</label>
+      <label><input type="radio" name="genero" value="Feminino"> Feminino</label>
+      <label><input type="radio" name="genero" value="Prefiro não dizer" checked> Prefiro não dizer</label>
+    </fieldset>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" minlength="6" required>
+
+    <label for="confirmar">Confirmar senha</label>
+    <input type="password" id="confirmar" name="confirmar" placeholder="Digite sua senha novamente" required>
+
+    <p class="erro" id="erro" role="alert" hidden></p>
+
+    <button type="submit" class="btn-branco">Criar conta</button>
+    <a href="entrar.html" class="voltar">Voltar</a>
+  </form>
+</body>
+</html>

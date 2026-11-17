@@ -1,0 +1,94 @@
+:root {
+  --fundo: #000;
+  --painel: #121212;
+  --cinza: #494949;
+  --texto: #fff;
+  --erro: #ff6b6b;
+  --raio: 15px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+a { color: var(--texto); text-decoration: none; }
+a:hover { text-decoration: underline; color: #d3d3d3; }
+
+/* Botões */
+.btn-branco, .btn-cinza, .btn-redondo {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-branco { background: #fff; color: #000; border-radius: 20px; height: 40px; padding: 0 24px; }
+.btn-branco:hover { background: #e6e6e6; text-decoration: none; color: #000; }
+.btn-cinza { background: var(--cinza); color: #fff; border-radius: 20px; height: 40px; padding: 0 14px; }
+.btn-redondo { background: var(--cinza); border-radius: 50%; width: 50px; height: 50px; font-size: 28px; }
+.link { padding: 0 8px; }
+
+/* Página principal */
+.app {
+  height: 100vh;
+  display: grid;
+  gap: 8px;
+  padding: 8px;
+  grid-template-columns: auto 1fr 320px;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-areas:
+    "menu menu menu"
+    "lateral central direita"
+    "controles controles controles";
+}
+
+.menu { grid-area: menu; background: var(--painel); border-radius: 10px; display: flex; align-items: center; gap: 24px; padding: 0 20px; }
+.logo { width: 70px; display: block; }
+.menu-direita { margin-left: auto; display: flex; align-items: center; gap: 16px; }
+
+.lateral { grid-area: lateral; background: var(--painel); border-radius: var(--raio); padding: 16px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; width: 300px; transition: width .2s; }
+.lateral.recolhida { width: 80px; align-items: center; }
+.lateral.recolhida .rotulo { display: none; }
+
+.central { grid-area: central; background: var(--painel); border-radius: var(--raio); padding: 24px; overflow: auto; }
+.direita { grid-area: direita; background: var(--painel); border-radius: var(--raio); padding: 16px; overflow: auto; }
+.controles { grid-area: controles; background: var(--cinza); border-radius: var(--raio); }
+
+.musicas { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+.musica { display: flex; flex-direction: column; gap: 10px; }
+.musica img { width: 200px; height: 200px; object-fit: cover; border-radius: 7px; }
+.musica audio { width: 100%; max-width: 260px; }
+
+/* Formulários (entrar, cadastro, em processo) */
+.pagina-form { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.cartao { width: 100%; max-width: 480px; background: var(--painel); border: 2px solid #fff; border-radius: var(--raio); padding: 32px; display: flex; flex-direction: column; gap: 8px; }
+.cartao.centro { align-items: center; text-align: center; }
+.cartao h1 { margin: 0 0 12px; font-size: 28px; }
+.cartao label { font-size: 16px; }
+.cartao input[type="text"], .cartao input[type="email"], .cartao input[type="password"], .cartao input[type="number"] {
+  width: 100%; height: 40px; padding: 0 16px; margin-bottom: 8px;
+  background: var(--painel); color: #fff; border: 1px solid #fff; border-radius: 20px; font: inherit;
+}
+.cartao fieldset { border: 1px solid var(--cinza); border-radius: 10px; margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 12px; }
+.cartao fieldset label { display: flex; align-items: center; gap: 6px; }
+.cartao button { margin-top: 8px; align-self: flex-start; }
+.erro { color: var(--erro); font-size: 15px; margin: 0; }
+.aviso { font-size: 16px; margin: 8px 0 0; }
+.aviso a, .voltar { text-decoration: underline; }
+.voltar { font-size: 16px; margin-top: 8px; }
+
+/* Telas pequenas */
+@media (max-width: 800px) {
+  .app { height: auto; grid-template-columns: 1fr; grid-template-rows: auto;
+    grid-template-areas: "menu" "central" "direita" "lateral" "controles"; }
+  .lateral, .lateral.recolhida { width: 100%; flex-direction: row; align-items: center; }
+  .lateral.recolhida .rotulo { display: inline; }
+  .controles { min-height: 60px; }
+}
